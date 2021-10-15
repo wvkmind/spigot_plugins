@@ -1,0 +1,48 @@
+#---------------------------------------------------------------------------
+#
+# MTVehicles Gemaakt door GamerJoep_, downloadbaar op https://mtvehicles.nl
+# voor support kun je ook terecht in onze discord staat op onze site ^
+#
+#---------------------------------------------------------------------------
+
+# Blijf hiervan af want je plugin gaat sowieso kapot als je dit aanpast!
+Config-Versie: 2.0.9
+
+# Dont change this, else your plugin can be broke.
+messagesLanguage: ns
+
+# Dit laat zien hoeveel rows het begin menu heeft van /vehicle menu 6 rows is de max.
+vehicleMenuSize: 3
+
+# Staat dit true staan de wiekens er altijd op false = wiekens komen er pas op als je instapt en gaan eraf met uitstappen.
+wiekens-always-on: true
+
+# Als je dit op true zet kun je je voertuig niet oppakken zodra je het in het water hebt gereden. Je hebt anders de permissie mtvehicles.anwb nodig.
+anwb: true
+
+# Zet je dit op false kun je niet meer kofferbak openen maar.
+kofferbakEnabled: true
+
+# Wil je benzine voor ALLE voertuigen uit? zet dit dan op false.
+benzine: true
+
+# Jerrycan grote's voor in het jerrycan menu /vehicle benzine
+jerrycans:
+  - 25
+  - 50
+  - 75
+
+# Laat dit op true staan als je altijd up-to date wilt zijn!
+# zet je dit uit krijg je geen melding bij een update
+# dat bericht krijg je als je de server joined en permissions mtvehicles.update hebt
+# en het /vehicle update command wordt ermee uitgeschakeld.
+auto-update: true
+
+# Laat spelers zelf de owner zetten
+spelerSetOwner: false
+
+# Je kunt dit instellen voor de max hoogte van een helicopter.
+helicopterMaxHight: 150
+
+# Zet dit aan als je wilt dat spelers geen voertuigen kunnen oppakken
+carPickup: false
